@@ -1,4 +1,5 @@
 pub mod backends;
+pub mod middle;
 pub mod parser;
 
 use std::env;
