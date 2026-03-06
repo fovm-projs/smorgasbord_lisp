@@ -1,0 +1,6 @@
+(defun factorial (n)
+  (if (eq n 0)
+    1
+    (mul n (factorial (sub n 1)))))
+
+(write 0 (factorial 5))
